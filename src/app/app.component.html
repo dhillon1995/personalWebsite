@@ -1,0 +1,52 @@
+
+<div class="container">
+
+    <div class="titleContainer">
+        <mat-card class="titleCard"><h1>Portfolio Test</h1></mat-card>
+    </div>
+
+
+    <div class="content">
+        <mat-grid-list cols="3" rowHeight="80px">
+
+            <mat-grid-tile>
+                <mat-card class="tileCard"><a class="cardText">Test</a></mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <button mat-stroked-button class="gridButton">
+                    Primary
+                </button>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <div class="gridContainer">
+                    <mat-grid-list cols="2" rowHeight="80px">
+                        <mat-grid-tile>
+                            <ul>
+                                <li>Previous work projects</li>
+                                <li>Garage Door project</li>
+                                <li>Devkit project</li>
+                            </ul>
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <ul>
+                                <li>E-commerce project</li>
+                                <li>Data Dash project</li>
+                                <li>HydroFoil project</li>
+                            </ul>
+                        </mat-grid-tile>
+                    </mat-grid-list>
+                </div>
+            </mat-grid-tile>
+            
+
+        </mat-grid-list>
+    </div>
+
+</div>
+
+<router-outlet></router-outlet>

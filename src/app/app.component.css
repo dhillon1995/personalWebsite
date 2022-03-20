@@ -1,0 +1,56 @@
+.container {
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.content {
+}
+
+mat-grid-tile {
+    background-color: rgb(206, 206, 206);
+}
+
+.tileCard {
+    min-width: 100px;
+    max-width: 100px;
+    text-align: center;
+}
+
+.cardText {
+    text-transform: uppercase;
+}
+
+.gridButton {
+    border-radius: 20px;
+    transition: ease;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+}
+
+.gridButton:hover {
+    font-weight: 400;
+}
+
+.gridButton:active {
+    font-weight: 500;
+}
+
+.gridContainer {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.titleCard {
+    padding: 4px 10px 4px 10px;
+    text-align: center;
+    max-width: 180px;
+}
