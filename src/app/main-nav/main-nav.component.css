@@ -1,0 +1,65 @@
+mat-toolbar{
+  background-color: rgba(119, 0, 255, 0.63);
+  position: sticky;
+  position: -webkit-sticky; /* For macOS/iOS Safari */
+  top: 0; /* Sets the sticky toolbar to be on top */
+  z-index: 10; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+
+.sidenav-container {
+  height: 100%;
+}
+
+.navTitle{
+  padding: 10px 4px 10px 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.navLocation{
+  padding: 10px 4px 10px 36px;
+  font-size: 14px;
+}
+
+.icon{
+  font-size: 28px;
+  padding-bottom: 8px;
+  color: rgb(255, 255, 255);
+}
+
+.iconMini{
+  font-size: 20px;
+  padding-top: 0px;
+  color: rgb(255, 255, 255);
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+@media (max-width: 959px) {
+  .mainLinks {
+    display: none;
+  }
+}
+
+@media (min-width: 959px) {
+  .sidenav {
+    display: none;
+  }
+}

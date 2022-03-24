@@ -1,0 +1,31 @@
+mat-toolbar{
+    background-color: rgba(119, 0, 255, 0.877);
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.navTitle{
+    padding: 10px 4px 10px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.navLocation{
+    padding: 10px 4px 10px 36px;
+    font-size: 14px;
+}
+
+.icon{
+    font-size: 28px;
+    padding-bottom: 8px;
+    color: rgb(255, 255, 255);
+}
+
+.iconMini{
+    font-size: 20px;
+    padding-top: 0px;
+    color: rgb(255, 255, 255);
+}
