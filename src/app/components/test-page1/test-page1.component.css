@@ -1,12 +1,36 @@
-mat-grid-tile{
-}
 
-.containerDiv{
-    width: auto;
+.mainContainer {
+    height: 80%;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    
 }
 
-.mainContainer{
-    padding-top: 10px;
-    width: auto;
+.gridContainer{
+    padding: 10px;
+    width: 86%;
+}
+
+.displayCard {
+    height: 220px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.featureIcons {
+    height: 90%;
+    padding-bottom: 4px;
+}
+
+.featureTitle {
+    background-color: aqua;
+    width: 100%;
+}
+
+mat-grid-tile {
 }

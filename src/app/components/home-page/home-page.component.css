@@ -11,25 +11,25 @@
 
 .topContainer {
     padding: 4px;
-    width: 800px;
+    width: 900px;
 }
 
 mat-grid-tile {
 }
 
 .projectImg {
-    max-width: 100%;
+    max-width: 380px;
     border-radius: 10px;
 }
 
-img {
-    width: max-content;
-    border-radius: 10px;
+.cardTitleContainer {
+    text-align: center;
+    padding: 10px;
 }
 
 .largeCard {
     width: 400px;
-    height: 212px;
+    height: 312px;
     border-radius: 10px;
 }
 
@@ -47,7 +47,7 @@ img {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 382px;
+    width: 420px;
     border: 6px solid #6f06e6;
     border-radius: 8px;
 }
@@ -71,8 +71,23 @@ img {
 .cardTitle {
     margin-left: 12px;
     font-weight: 440;
-    font-size: 15px;
+    font-size: 19px;
     margin-bottom: 10px;
+}
+
+.cardActions {
+    padding: 10px;
+    text-align: center;
+}
+
+.actionButtons {
+    color: #e7e7e7;
+    border-radius: 10px;
+}
+
+.buttonIcon {
+    padding-right: 4px;
+    padding-bottom: 2px;
 }
 
 mat-divider {
