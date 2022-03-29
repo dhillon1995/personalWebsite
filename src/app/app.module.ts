@@ -21,6 +21,9 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { HomePageComponent } from './components/home-page/home-page.component';
+import { GithubComponent } from './components/github/github.component';
+import { HardwareCardsComponent } from './components/hardware-cards/hardware-cards.component';
+import { SoftwarePageComponent } from './components/software-page/software-page.component';
 
 
 @NgModule({
@@ -32,6 +35,9 @@ import { HomePageComponent } from './components/home-page/home-page.component';
     TestCardComponent,
     MainNavComponent,
     HomePageComponent,
+    GithubComponent,
+    HardwareCardsComponent,
+    SoftwarePageComponent,
   ],
   imports: [
     BrowserModule,

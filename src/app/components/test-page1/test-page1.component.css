@@ -20,6 +20,19 @@
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
+    border: 1px solid rebeccapurple;
+}
+
+.displayCard:hover {
+    border: 4px solid rebeccapurple;
+    height: 224px;
+    width: 284px;
+}
+
+.displayCard:active {
+    border: 3px solid rebeccapurple;
+    height: 220px;
+    width: 280px;
 }
 
 .featureIcons {

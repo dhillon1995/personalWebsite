@@ -6,6 +6,14 @@ mat-toolbar{
   z-index: 10; /* Ensure that your app's content doesn't overlap the toolbar */
 }
 
+.logoImg {
+  height: 50px;
+  border: solid;
+  border-color: #f5b700;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
 .sidenav-container {
   height: 100%;
 }

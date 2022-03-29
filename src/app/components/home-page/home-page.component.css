@@ -19,18 +19,26 @@ mat-grid-tile {
 
 .projectImg {
     max-width: 380px;
+    height: 370px;
     border-radius: 10px;
 }
 
 .cardTitleContainer {
-    text-align: center;
-    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6px;
+    padding-top: 0px;
 }
 
 .largeCard {
     width: 400px;
-    height: 312px;
+    height: 340px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #242325;
 }
 
 .projectCards {
@@ -41,6 +49,7 @@ mat-grid-tile {
 
 .cardText {
     padding-top: 10px;
+    color: #D9D0DE;
 }
 
 .largeCardLine {
@@ -48,8 +57,23 @@ mat-grid-tile {
     top: 0px;
     left: 0px;
     width: 420px;
-    border: 6px solid #6f06e6;
+    border: 6px solid #F5B700;
     border-radius: 8px;
+}
+
+.cardTitleBox{
+    height: 18px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242325;
+}
+
+.gridLine {
+    width: 700px;
+    border: 1px solid #e2e2e22f;
+    border-radius: 0px;
 }
 
 .cardLine {
@@ -57,15 +81,24 @@ mat-grid-tile {
     top: 0px;
     left: 0px;
     width: 284px;
-    border: 4px solid #6f06e6;
+    border: 4px solid #7004E4;
+}
+
+.cardDivider {
+    padding: 2px;
+    border-top-color: #F5B700;
 }
 
 .cardIcon {
     position: inline-flex;
-    vertical-align: middle;
-    font-size: 26px;
+    font-size: 28px;
     padding-bottom: 6px;
-    padding-left: 10px;
+    padding-left: 6px;
+    color: #D9D0DE;
+}
+
+.iconImg {
+    height: 40px;
 }
 
 .cardTitle {
@@ -73,21 +106,27 @@ mat-grid-tile {
     font-weight: 440;
     font-size: 19px;
     margin-bottom: 10px;
+    color: #D9D0DE;
 }
 
 .cardActions {
-    padding: 10px;
-    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    height: 50px;
+    padding-top: 6px;
 }
 
 .actionButtons {
-    color: #e7e7e7;
+    color: #D9D0DE;
     border-radius: 10px;
 }
 
 .buttonIcon {
     padding-right: 4px;
     padding-bottom: 2px;
+    color: #FF0054;
 }
 
 mat-divider {

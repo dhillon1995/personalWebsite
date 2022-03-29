@@ -1,168 +1,195 @@
 <div class="mainContainer">
     <div class="topContainer">
-        <mat-grid-list cols="2" rowHeight="400px" gutterSize="20px">
-            <mat-grid-tile>
+        <mat-grid-list cols="2" rowHeight="50px" gutterSize="0px">
+
+            <mat-grid-tile colspan="2" rowspan="1">
+                <hr class="gridLine">
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
                 <img src="./../../assets/e_foil.jpg" class="projectImg" [class.mat-elevation-z6]="true">
             </mat-grid-tile>
 
-            <mat-grid-tile>
-                <mat-card class="largeCard">
-                    <hr class="largeCardLine">
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="largeCard" [class.mat-elevation-z6]="true">
+
                     <div class="cardTitleContainer">
-                        <mat-icon class="cardIcon">surfing</mat-icon><a class="cardTitle">Hydrofoil Project</a>
+                        <mat-card class="cardTitleBox" [class.mat-elevation-z4]="true">
+                            <img src="./../../assets/surfing-48.png" class="iconImg"><a class="cardTitle">E-foil Project</a>
+                        </mat-card>
                     </div>
-                    <mat-divider [inset]="true"></mat-divider>
+
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
                     <p class="cardText">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        I’ve always had an interest in hydrofoils, so with the advent of electric foils coming to market I decided to build one. After gaining some experience in CAD and CFD software I started to experiment with some virtual models. This is an ongoing project, and it comes with a lot of challenges in computational simulation, composite manufacturing and basic electronics. Click more info if you would like an in-depth breakdown of the current state of the project, or take a quick look via the 3-D model link.
                     </p>
-                    <mat-divider [inset]="true"></mat-divider>
+                    
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
                     <mat-card-actions>
                         <div class="cardActions">
-                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">info</mat-icon>More Information</button>
+                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
                             <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">view_in_ar</mat-icon>View 3D Model</button>
                         </div>
                     </mat-card-actions>
                 </mat-card>
             </mat-grid-tile>
 
-            <mat-grid-tile>
-                <mat-card class="largeCard">
-                    <hr class="largeCardLine">
-                    <mat-icon class="cardIcon">surfing</mat-icon><a class="cardTitle">Hydrofoil Project</a>
-                    <mat-divider [inset]="true"></mat-divider>
+            <mat-grid-tile colspan="2" rowspan="1">
+                <hr class="gridLine">
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <img src="./../../assets/v3_assembly.png" class="projectImg" [class.mat-elevation-z6]="true">
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="largeCard" [class.mat-elevation-z6]="true">
+
+                    <div class="cardTitleContainer">
+                        <mat-card class="cardTitleBox" [class.mat-elevation-z4]="true">
+                            <img src="./../../assets/code-48.png" class="iconImg"><a class="cardTitle">Development Kit</a>
+                        </mat-card>
+                    </div>
+
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
                     <p class="cardText">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                        culpa qui officia deserunt mollit anim id est laborum. <br>
                     </p>
+                    
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <mat-card-actions>
+                        <div class="cardActions">
+                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
+                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">view_in_ar</mat-icon>View 3D Model</button>
+                        </div>
+                    </mat-card-actions>
                 </mat-card>
             </mat-grid-tile>
 
-            <mat-grid-tile>
-                <img src="./../../assets/tyre.jpg" class="projectImg" [class.mat-elevation-z6]="true">
+            <mat-grid-tile colspan="2" rowspan="1">
+                <hr class="gridLine">
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <img src="./../../assets/v3_assembly.png" class="projectImg" [class.mat-elevation-z6]="true">
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="largeCard" [class.mat-elevation-z6]="true">
+
+                    <div class="cardTitleContainer">
+                        <mat-card class="cardTitleBox" [class.mat-elevation-z4]="true">
+                            <img src="./../../assets/carbon-48.png" class="iconImg"><a class="cardTitle">Carbon-fibre</a>
+                        </mat-card>
+                    </div>
+
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <p class="cardText">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                        culpa qui officia deserunt mollit anim id est laborum. <br>
+                    </p>
+                    
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <mat-card-actions>
+                        <div class="cardActions">
+                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
+                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">view_in_ar</mat-icon>View 3D Model</button>
+                        </div>
+                    </mat-card-actions>
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="2" rowspan="1">
+                <hr class="gridLine">
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <img src="./../../assets/v3_assembly.png" class="projectImg" [class.mat-elevation-z6]="true">
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="largeCard" [class.mat-elevation-z6]="true">
+
+                    <div class="cardTitleContainer">
+                        <mat-card class="cardTitleBox" [class.mat-elevation-z4]="true">
+                            <img src="./../../assets/hammer-and-anvil-48.png" class="iconImg"><a class="cardTitle">Forged Carbon-Fibre</a>
+                        </mat-card>
+                    </div>
+
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <p class="cardText">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+                        culpa qui officia deserunt mollit anim id est laborum. <br>
+                    </p>
+                    
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <mat-card-actions>
+                        <div class="cardActions">
+                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
+                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">view_in_ar</mat-icon>View 3D Model</button>
+                        </div>
+                    </mat-card-actions>
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="2" rowspan="1">
+                <hr class="gridLine">
             </mat-grid-tile>
 
         </mat-grid-list>
     </div>
 </div>
 
-    <div class="testContainer">
+<div class="testContainer">
 
-        <mat-grid-list cols="2" rowHeight="240px" gutterSize="4px">
+    <mat-grid-list cols="2" rowHeight="240px" gutterSize="4px">
 
-            <mat-grid-tile>
-                <mat-card class="projectCards">
-                    <hr class="cardLine">
-                    <mat-icon class="cardIcon">code</mat-icon><a class="cardTitle">Software Projects</a>
-                    <mat-divider [inset]="true"></mat-divider>
-                    <ul>
-                        <li>Garage Control Portal</li>
-                        <li>Cotswold Destinations Prototype</li>
-                        <li>Energy Usage Dashboard</li>
-                        <li>This portfolio website</li>
-                        <li>Crud Application Demo</li>
-                    </ul>
-                </mat-card>
-            </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card class="projectCards">
+                <hr class="cardLine">
+                <mat-icon class="cardIcon">code</mat-icon><a class="cardTitle">Software Projects</a>
+                <mat-divider [inset]="true"></mat-divider>
+                <ul>
+                    <li>Garage Control Portal</li>
+                    <li>Cotswold Destinations Prototype</li>
+                    <li>Energy Usage Dashboard</li>
+                    <li>This portfolio website</li>
+                    <li>Crud Application Demo</li>
+                </ul>
+            </mat-card>
+        </mat-grid-tile>
 
-            <mat-grid-tile>
-                <mat-card class="projectCards">
-                    <hr class="cardLine">
-                    <mat-icon class="cardIcon">engineering</mat-icon><a class="cardTitle">CAD Projects</a>
-                    <mat-divider [inset]="true"></mat-divider>
-                    <ul>
-                        <li>Development Kit</li>
-                        <li>Carbon-Fibre Test Molds</li>
-                        <li>Garage Door Opener</li>
-                        <li>Electric-Hydrofoil Concept</li>
-                    </ul>
-                </mat-card>
-            </mat-grid-tile>
-            <mat-grid-tile>
-                <mat-card class="projectCards">
-                    <hr class="cardLine">
-                    <mat-icon class="cardIcon">code</mat-icon><a class="cardTitle">Software Projects</a>
-                    <mat-divider [inset]="true"></mat-divider>
-                    <ul>
-                        <li>Garage Control Portal</li>
-                        <li>Cotswold Destinations Prototype</li>
-                        <li>Energy Usage Dashboard</li>
-                        <li>This portfolio website</li>
-                        <li>Crud Application Demo</li>
-                    </ul>
-                </mat-card>
-            </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card class="projectCards">
+                <hr class="cardLine">
+                <mat-icon class="cardIcon">engineering</mat-icon><a class="cardTitle">CAD Projects</a>
+                <mat-divider [inset]="true"></mat-divider>
+                <ul>
+                    <li>Development Kit</li>
+                    <li>Carbon-Fibre Test Molds</li>
+                    <li>Garage Door Opener</li>
+                    <li>Electric-Hydrofoil Concept</li>
+                </ul>
+            </mat-card>
+        </mat-grid-tile>
 
-            <mat-grid-tile>
-                <mat-card class="projectCards">
-                    <hr class="cardLine">
-                    <mat-icon class="cardIcon">engineering</mat-icon><a class="cardTitle">CAD Projects</a>
-                    <mat-divider [inset]="true"></mat-divider>
-                    <ul>
-                        <li>Development Kit</li>
-                        <li>Carbon-Fibre Test Molds</li>
-                        <li>Garage Door Opener</li>
-                        <li>Electric-Hydrofoil Concept</li>
-                    </ul>
-                </mat-card>
-            </mat-grid-tile>
-            <mat-grid-tile>
-                <mat-card class="projectCards">
-                    <hr class="cardLine">
-                    <mat-icon class="cardIcon">code</mat-icon><a class="cardTitle">Software Projects</a>
-                    <mat-divider [inset]="true"></mat-divider>
-                    <ul>
-                        <li>Garage Control Portal</li>
-                        <li>Cotswold Destinations Prototype</li>
-                        <li>Energy Usage Dashboard</li>
-                        <li>This portfolio website</li>
-                        <li>Crud Application Demo</li>
-                    </ul>
-                </mat-card>
-            </mat-grid-tile>
-
-            <mat-grid-tile>
-                <mat-card class="projectCards">
-                    <hr class="cardLine">
-                    <mat-icon class="cardIcon">engineering</mat-icon><a class="cardTitle">CAD Projects</a>
-                    <mat-divider [inset]="true"></mat-divider>
-                    <ul>
-                        <li>Development Kit</li>
-                        <li>Carbon-Fibre Test Molds</li>
-                        <li>Garage Door Opener</li>
-                        <li>Electric-Hydrofoil Concept</li>
-                    </ul>
-                </mat-card>
-            </mat-grid-tile><mat-grid-tile>
-                <mat-card class="projectCards">
-                    <hr class="cardLine">
-                    <mat-icon class="cardIcon">code</mat-icon><a class="cardTitle">Software Projects</a>
-                    <mat-divider [inset]="true"></mat-divider>
-                    <ul>
-                        <li>Garage Control Portal</li>
-                        <li>Cotswold Destinations Prototype</li>
-                        <li>Energy Usage Dashboard</li>
-                        <li>This portfolio website</li>
-                        <li>Crud Application Demo</li>
-                    </ul>
-                </mat-card>
-            </mat-grid-tile>
-
-            <mat-grid-tile>
-                <mat-card class="projectCards">
-                    <hr class="cardLine">
-                    <mat-icon class="cardIcon">engineering</mat-icon><a class="cardTitle">CAD Projects</a>
-                    <mat-divider [inset]="true"></mat-divider>
-                    <ul>
-                        <li>Development Kit</li>
-                        <li>Carbon-Fibre Test Molds</li>
-                        <li>Garage Door Opener</li>
-                        <li>Electric-Hydrofoil Concept</li>
-                    </ul>
-                </mat-card>
-            </mat-grid-tile>
-
-        </mat-grid-list>
-    </div>
+    </mat-grid-list>
+</div>

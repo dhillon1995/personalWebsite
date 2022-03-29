@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { TestPage1Component } from './components/test-page1/test-page1.component';
 import { TestPage2Component } from './components/test-page2/test-page2.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
+import { GithubComponent } from './components/github/github.component';
+import { SoftwarePageComponent } from './components/software-page/software-page.component'
 
 const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 console.log("this is the width (responsive),", width)
@@ -20,11 +22,13 @@ var routingTest: any;
 console.log("routing file test", width , routingTest)
 
 const routes: Routes = [
-  { path: 'home2', redirectTo: '' },
-  { path: 'testing', component: TestPage1Component },
-  { path: 'home', component: TestPage2Component },
+  { path: 'home', redirectTo: '' },
+  { path: 'testing', component: TestPage2Component },
+  { path: 'software', component: SoftwarePageComponent },
+  { path: 'hardware', component: HomePageComponent },
+  { path: 'github', component: GithubComponent },
 
-  { path: '**', component: HomePageComponent }
+  { path: '**', component: TestPage1Component }
 ];
 
 @NgModule({
