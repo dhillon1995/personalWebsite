@@ -5,6 +5,12 @@ import { TestPage2Component } from './components/test-page2/test-page2.component
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { GithubComponent } from './components/github/github.component';
 import { SoftwarePageComponent } from './components/software-page/software-page.component'
+import { GarageControlPageComponent } from './components/garage-control-page/garage-control-page.component';
+import { PortfolioPageComponent } from './components/portfolio-page/portfolio-page.component';
+import { TripPlannerPageComponent } from './components/trip-planner-page/trip-planner-page.component';
+import { EnergyDashPageComponent } from './components/energy-dash-page/energy-dash-page.component';
+import { FirstWebitePageComponent } from './components/first-webite-page/first-webite-page.component';
+import { ThreeDTestComponent } from './components/three-dtest/three-dtest.component';
 
 const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 console.log("this is the width (responsive),", width)
@@ -28,7 +34,17 @@ const routes: Routes = [
   { path: 'hardware', component: HomePageComponent },
   { path: 'github', component: GithubComponent },
 
-  { path: '**', component: TestPage1Component }
+  { path: 'garage', component: GarageControlPageComponent },
+  { path: 'portfolio', component: PortfolioPageComponent },
+  { path: 'tripPlanner', component: TripPlannerPageComponent },
+  { path: 'energyUI', component: EnergyDashPageComponent },
+  { path: 'firstWebsite', component: FirstWebitePageComponent },
+
+  { path: '3dTest', component: ThreeDTestComponent },
+
+  { path: '**', component: TestPage1Component },
+
+  
 ];
 
 @NgModule({

@@ -24,6 +24,12 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { GithubComponent } from './components/github/github.component';
 import { HardwareCardsComponent } from './components/hardware-cards/hardware-cards.component';
 import { SoftwarePageComponent } from './components/software-page/software-page.component';
+import { GarageControlPageComponent } from './components/garage-control-page/garage-control-page.component';
+import { PortfolioPageComponent } from './components/portfolio-page/portfolio-page.component';
+import { TripPlannerPageComponent } from './components/trip-planner-page/trip-planner-page.component';
+import { EnergyDashPageComponent } from './components/energy-dash-page/energy-dash-page.component';
+import { FirstWebitePageComponent } from './components/first-webite-page/first-webite-page.component';
+import { ThreeDTestComponent } from './components/three-dtest/three-dtest.component';
 
 
 @NgModule({
@@ -38,6 +44,12 @@ import { SoftwarePageComponent } from './components/software-page/software-page.
     GithubComponent,
     HardwareCardsComponent,
     SoftwarePageComponent,
+    GarageControlPageComponent,
+    PortfolioPageComponent,
+    TripPlannerPageComponent,
+    EnergyDashPageComponent,
+    FirstWebitePageComponent,
+    ThreeDTestComponent,
   ],
   imports: [
     BrowserModule,
