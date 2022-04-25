@@ -1,0 +1,71 @@
+<div class="outerContainer">
+    <div class="mainContainer">
+
+        <mat-grid-list class="titleGrid" cols="3" rowHeight="60px">
+
+            <mat-grid-tile>
+                <button mat-stroked-button class="navButtons" [class.mat-elevation-z4]="true" (click)="hardwareButton()">
+                    <img src="./../../assets/doubleLeft.png" class="buttonImgL">
+                    Back to hardware repo
+                </button>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <mat-card class="titleCard">
+                    <img src="./../../assets/hammer-and-anvil-48.png" class="titleIcon"><p class="titleText">Forged Carbon</p>
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile>
+                <button mat-stroked-button class="navButtons" [class.mat-elevation-z4]="true" (click)="thingButton()">
+                    View on Thingiverse
+                    <img src="./../../assets/unity.png" class="buttonImgL">
+                </button>
+            </mat-grid-tile>
+
+        </mat-grid-list>
+
+        <mat-card class="largeCard">
+
+            <mat-grid-list cols="6" rowHeight="288px" gutterSize="4px">
+                <mat-grid-tile colspan="3">
+                    <img src="./../../assets/brakeMold.JPG" class="featurePicture" [class.mat-elevation-z8]="true">
+                </mat-grid-tile>
+
+                <mat-grid-tile colspan="3">
+                    <mat-card class="featureTextCard" [class.mat-elevation-z6]="true">
+                        This is similar to the previous test I did for Carbon Fiber, but this time for a solid forged carbon part. The reason I decided to do this is because for parts such as the mast mount on my hydrofoil project, forged carbon could be a great alternative to an aluminum part, which I would have to get CNC machined significantly increasing the cost of the project.For this test piece, I decided to make a break lever for a motorcycle. The actual process of “forging” carbon fiber is relatively straight forwards, however the challenge comes in the design of the mold. Unlike the carbon fiber mold, which was a simple negative mold of the part we wanted to make, this will have to be a compression mold progressively compressing the material to create the part you’d like. 
+                    </mat-card>
+                </mat-grid-tile>
+
+                <mat-grid-tile colspan="6">
+                    <mat-card class="featureTextCard" [class.mat-elevation-z6]="true">
+                        This means the design of the mold is almost like a piston in an engine, where the top face of the mold acts as the piston compressing the material inside the camber of the mold. The main lower part of the mold is also split making de molding the part easier. Once the design is done, which was a lot more time consuming than a negative mold, I set the molds to print in PETG with a very high infill, giving it good strength. I assembled the mold after printing with some threaded rod and wooden backing plates. The amount of fibers applied into the mold depends on the final weight of the part, which should be approximately 1.4x the volume, meaning if you have a volume of 100ml, the part should weigh 140grams. With this is mind we want to stick to a 60/40 ratio of carbon to resin, so we take 60% of the final weight of the part, and apply that amount of chopped carbon fibers into the mold. I applied the fibers in layers, making sure to progressively wet them through from layer to layer, reducing the change of dry spots when I begin to compress the mold. Once all of the layers have been applied into the mold, I carefully pour the rest of the resin into the mold from above, and very slowly close the mold and begin the compression process. I went incredibly slow during the compression and did it in multiple stages, allowing the resin to work its way through the entire part, and allowing the excess to leak out. Going too quickly can result in dry spots in the part creating structural vulnerabilities and can also create a hydro lock, splitting/breaking the mold. Once this step was complete, I let the part dry for 24hrs at room temperature and then began to demold.
+                    </mat-card>
+                </mat-grid-tile>
+
+                <mat-grid-tile colspan="2">
+                    <img src="./../../assets/brakelever2.png" class="featurePicture" [class.mat-elevation-z8]="true">
+                </mat-grid-tile>
+
+                <mat-grid-tile colspan="4">
+                    <mat-card class="featureTextCard" [class.mat-elevation-z6]="true">
+                        I used a release agent before starting but this time I used a wax-based spray on release agent, and also used filleting wax on the threaded rod holding the mold together. These steps made this process a lot easier and the part surprisingly separated from the mold with relative ease. There were a couple of tolerance issues, where I allowed to much of a gap in between the faces of a lower main section, and top compression piece of the mold which left a bit of a line in the part, but overall, the test was a success. The part is incredibly strong and stiff, if I also added some directional fibers into the part while applying the chopped strands, I could even further increase the strength in precise directions/planes making it perfect for my application. Composites also don’t rust which is a huge advantage in marine applications. Surface finish could be better, but this can be fixed by making the molds surfaces smoother, and reducing the tolerance for the upper section of the mold.
+                    </mat-card>
+                </mat-grid-tile>
+
+                <mat-grid-tile colspan="3">
+                    <img src="./../../assets/brakeLeverRW.png" class="featurePicture" [class.mat-elevation-z8]="true">
+                </mat-grid-tile>
+
+                <mat-grid-tile colspan="3">
+                    <img src="./../../assets/moldAW.png" class="featurePicture" [class.mat-elevation-z8]="true">
+                </mat-grid-tile>
+
+            </mat-grid-list>
+
+        </mat-card>
+
+    </div>
+
+</div>

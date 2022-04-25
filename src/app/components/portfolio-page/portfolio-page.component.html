@@ -1,0 +1,90 @@
+<div class="mainContainer">
+    <div class="innerContainer">
+        <div class="titleContainer">
+            <mat-card class="titleCard" [class.mat-elevation-z6]="true">
+                <img src="./../../assets/portfolio-48.png" class="titleIcon"> <h2>My Portfolio Portal</h2>
+            </mat-card>
+        </div>
+        
+        <mat-card class="largeCard" [class.mat-elevation-z8]="true">
+            <mat-grid-list cols="2" rowHeight="280px">
+                <mat-grid-tile>
+                    <img src="./../../assets/portfolioSnip.PNG" class="showcaseImg"  [class.mat-elevation-z8]="true">
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-card class="descriptionCard" [class.mat-elevation-z6]="true">
+                        The goal for this portfolio website is to show some of my skills using professional and personal projects that require different languages and technologies to undertake. The website is fairly simple in layout, it has 3 main pages; Home, Software Repo and Hardware Repo. The Home page showcases icon-based navigation with some custom CSS to implement hover and click animations. The hardware and software buttons take you to their respective pages, and the GitHub button takes you to my GitHub home page. The Hardware and software pages are also very simple in layout, this is by design so the user can easily see all of my projects without having read into them with a lot of detail, unless they wish to, in which case each project has an in detail click through.
+                    </mat-card>
+                </mat-grid-tile>
+
+            </mat-grid-list>
+
+            <div class="techOuterContainer">
+                <mat-card class="techTitleCard" [class.mat-elevation-z8]="true"><h2 class="techTitle">Technologies Used</h2></mat-card>
+                <div class="techContainer">
+                    <mat-grid-list cols="5" rowHeight="160px" style="width: 100%;">
+                        
+                        <mat-grid-tile>
+                            <mat-card class="techIconCard" [class.mat-elevation-z8]="true">
+                                <img src="./../../assets/angular.png" class="techIcon">
+                                <h4 class="techName">Angular 4.0</h4>
+                            </mat-card>
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <mat-card class="techIconCard" [class.mat-elevation-z8]="true">
+                                <img src="./../../assets/HTML5_Logo.png" class="techIcon">
+                                <h4 class="techName">HTML 5</h4>
+                            </mat-card>
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <mat-card class="techIconCard" [class.mat-elevation-z8]="true">
+                                <img src="./../../assets/CSS3_logo.png" class="techIcon">
+                                <h4 class="techName">CSS 3</h4>
+                            </mat-card>
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <mat-card class="techIconCard" [class.mat-elevation-z8]="true">
+                                <img src="./../../assets/material.png" class="techIcon">
+                                <h4 class="techName">Angular Material</h4>
+                            </mat-card>
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <mat-card class="techIconCard" [class.mat-elevation-z8]="true">
+                                <img src="./../../assets/Typescript_logo.png" class="techIcon">
+                                <h4 class="techName">TypeScript ES6</h4>
+                            </mat-card>
+                        </mat-grid-tile>
+                    </mat-grid-list>
+                </div>
+
+                <div class="bottomActions">
+
+                <hr class="actionLine">
+                    <mat-grid-list cols="2" rowHeight="60px" style="width: 100%;">
+                        <mat-grid-tile>
+                            <button mat-stroked-button class="navButtons" [class.mat-elevation-z4]="true" (click)="softwareButton()">
+                                <img src="./../../assets/back-64.png" class="buttonImgL">
+                                Back to Software Page
+                            </button>
+                        </mat-grid-tile>
+
+                        <mat-grid-tile>
+                            <button mat-stroked-button class="navButtons" [class.mat-elevation-z4]="true" (click)="githubButton()">
+                                View my GitHub
+                                <img src="./../../assets/github-64.png" class="buttonImgR">
+                            </button>
+                        </mat-grid-tile>
+
+                    </mat-grid-list>
+                    <hr class="actionLine">
+                </div>
+            </div>
+
+        </mat-card>
+
+        <br>
+        <br>
+
+    </div>
+
+</div>

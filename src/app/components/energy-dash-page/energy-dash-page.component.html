@@ -1,0 +1,114 @@
+<div class="mainContainer">
+    <div class="innerContainer">
+        <div class="titleContainer">
+            <mat-card class="titleCard" [class.mat-elevation-z6]="true">
+                <img src="./../../assets/control-60.png" class="titleIcon"> <h2>Energy Dashboard UI</h2>
+            </mat-card>
+        </div>
+        
+        <mat-card class="largeCard" [class.mat-elevation-z8]="true">
+            <mat-grid-list cols="2" rowHeight="280px">
+                <mat-grid-tile>
+                    <img src="./../../assets/energyHome.PNG" class="showcaseImg"  [class.mat-elevation-z8]="true">
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <mat-card class="descriptionCard" [class.mat-elevation-z6]="true">
+                        This project was to prove the concept of a company’s industrial energy monitoring device. This device attaches at the fuse box of the location you would like to monitor, and it would send data about how much energy you are using and what device is using it, via LoRa to a WIFI connected hub or gateway. This allowed locations to see exactly what’s using the most amount of energy near real time and over a longer period of time. The home page was pretty simple, I made 6 cards to simply display the ‘highlight’ information that the customers were most interested in. The most useful cards are on the top row and the secondary info is on the second row of the home page, with historical and specific data easily viewable by other tabs or pages.
+                    </mat-card>
+                </mat-grid-tile>
+
+                <mat-grid-tile>
+                    <mat-card class="descriptionCard" [class.mat-elevation-z6]="true">
+                        The other tabs were there for specific and historical data. These pages were simply designed to display data that the user wants to see, they can specify this by using time scope and data type filters. This allows sites to compare how energy is used during different seasons throughout the year. One of the challenges with this project was working with the very strange back end that went along with this project. The company had attempted to get this product going various times throughout the years, and this resulted in a peculiar PHP script that ran periodically on the server, pulling data and then placing it into a JSON file for you to use, instead of a more conventional request and response API.
+                    </mat-card>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                    <img src="./../../assets/energyGraph.PNG" class="showcaseImg"  [class.mat-elevation-z8]="true">
+                </mat-grid-tile>
+
+            </mat-grid-list>
+
+            <div class="techOuterContainer">
+                <mat-card class="techTitleCard" [class.mat-elevation-z8]="true"><h2 class="techTitle">Technologies Used</h2></mat-card>
+                <div class="techContainer">
+                    <mat-grid-list cols="5" rowHeight="160px" style="width: 100%;">
+                        
+                        <mat-grid-tile>
+                            <mat-card class="techIconCard" [class.mat-elevation-z8]="true">
+                                <img src="./../../assets/angular.png" class="techIcon">
+                                <h4 class="techName">Angular 4.0</h4>
+                            </mat-card>
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <mat-card class="techIconCard" [class.mat-elevation-z8]="true">
+                                <img src="./../../assets/HTML5_Logo.png" class="techIcon">
+                                <h4 class="techName">HTML 5</h4>
+                            </mat-card>
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <mat-card class="techIconCard" [class.mat-elevation-z8]="true">
+                                <img src="./../../assets/CSS3_logo.png" class="techIcon">
+                                <h4 class="techName">CSS 3</h4>
+                            </mat-card>
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <mat-card class="techIconCard" [class.mat-elevation-z8]="true">
+                                <img src="./../../assets/material.png" class="techIcon">
+                                <h4 class="techName">Angular Material</h4>
+                            </mat-card>
+                        </mat-grid-tile>
+                        <mat-grid-tile>
+                            <mat-card class="techIconCard" [class.mat-elevation-z8]="true">
+                                <img src="./../../assets/Typescript_logo.png" class="techIcon">
+                                <h4 class="techName">TypeScript ES6</h4>
+                            </mat-card>
+                        </mat-grid-tile>
+                    </mat-grid-list>
+                </div>
+
+                <mat-grid-list cols="2" rowHeight="160px" style="width: 40%;">
+                    <mat-grid-tile>
+                        <mat-card class="techIconCard" [class.mat-elevation-z8]="true">
+                            <img src="./../../assets/PHP.png" class="techIcon">
+                            <h4 class="techName">PHP</h4>
+                        </mat-card>
+                    </mat-grid-tile>
+                    <mat-grid-tile>
+                        <mat-card class="techIconCard" [class.mat-elevation-z8]="true">
+                            <img src="./../../assets/JSON.png" class="techIcon">
+                            <h4 class="techName">JSON</h4>
+                        </mat-card>
+                    </mat-grid-tile>
+                </mat-grid-list>
+
+                <div class="bottomActions">
+
+                <hr class="actionLine">
+                    <mat-grid-list cols="2" rowHeight="60px" style="width: 100%;">
+                        <mat-grid-tile>
+                            <button mat-stroked-button class="navButtons" [class.mat-elevation-z4]="true" (click)="softwareButton()">
+                                <img src="./../../assets/back-64.png" class="buttonImgL">
+                                Back to Software Page
+                            </button>
+                        </mat-grid-tile>
+
+                        <mat-grid-tile>
+                            <button mat-stroked-button class="navButtons" [class.mat-elevation-z4]="true" (click)="githubButton()">
+                                View my GitHub
+                                <img src="./../../assets/github-64.png" class="buttonImgR">
+                            </button>
+                        </mat-grid-tile>
+
+                    </mat-grid-list>
+                    <hr class="actionLine">
+                </div>
+            </div>
+
+        </mat-card>
+
+        <br>
+        <br>
+
+    </div>
+
+</div>

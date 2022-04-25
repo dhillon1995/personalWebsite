@@ -11,7 +11,12 @@ import { TripPlannerPageComponent } from './components/trip-planner-page/trip-pl
 import { EnergyDashPageComponent } from './components/energy-dash-page/energy-dash-page.component';
 import { FirstWebitePageComponent } from './components/first-webite-page/first-webite-page.component';
 import { ThreeDTestComponent } from './components/three-dtest/three-dtest.component';
+import { DevkitPageComponent } from './components/devkit-page/devkit-page.component';
+import { FoilPageComponent } from './components/foil-page/foil-page.component';
+import { CarbonPageComponent } from './components/carbon-page/carbon-page.component';
+import { ForgedCarbonPageComponent } from './components/forged-carbon-page/forged-carbon-page.component';
 
+/**
 const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 console.log("this is the width (responsive),", width)
 var routingTest: any;
@@ -26,6 +31,7 @@ var routingTest: any;
     }
 
 console.log("routing file test", width , routingTest)
+ */
 
 const routes: Routes = [
   { path: 'home', redirectTo: '' },
@@ -41,6 +47,11 @@ const routes: Routes = [
   { path: 'firstWebsite', component: FirstWebitePageComponent },
 
   { path: '3dTest', component: ThreeDTestComponent },
+
+  { path: 'Devkit', component: DevkitPageComponent },
+  { path: 'eFoil', component: FoilPageComponent },
+  { path: 'Carbon', component: CarbonPageComponent },
+  { path: 'ForgedCarbon', component: ForgedCarbonPageComponent },
 
   { path: '**', component: TestPage1Component },
 

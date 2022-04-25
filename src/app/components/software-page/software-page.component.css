@@ -1,0 +1,158 @@
+.mainContainer {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testContainer {
+    padding: 14px 120px 10px 120px;
+}
+
+.topContainer {
+    padding: 4px;
+    width: 900px;
+}
+
+mat-grid-tile {
+}
+
+.projectImg {
+    max-width: 380px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+.projectIcon {
+    height: 200px;
+}
+
+.projectIconCard {
+    height: 320px;
+    width: 350px;
+    border-radius: 10px;
+    background: rgb(63,94,251);
+    background: linear-gradient(25deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardTitleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6px;
+    padding-top: 0px;
+}
+
+.largeCard {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #242325;
+}
+
+.projectCards {
+    border-radius: 0px;
+    width: 260px;
+    height: 146px;
+}
+
+.cardText {
+    padding-top: 10px;
+    color: #D9D0DE;
+}
+
+.largeCardLine {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 420px;
+    border: 6px solid #F5B700;
+    border-radius: 8px;
+}
+
+.cardTitleBox{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242325;
+    border-radius: 0px;
+    margin-bottom: 6px;
+}
+
+.gridLine {
+    width: 700px;
+    border: 1px solid #e2e2e22f;
+    border-radius: 0px;
+}
+
+.cardLine {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 284px;
+    border: 4px solid #7004E4;
+}
+
+.cardDivider {
+    padding: 2px;
+    border-top-color: #F5B700;
+}
+
+.cardIcon {
+    position: inline-flex;
+    font-size: 28px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    color: #D9D0DE;
+}
+
+.iconImg {
+    height: 26px;
+    margin-right: 2px;
+}
+
+.cardTitle {
+    margin-left: 4px;
+    font-weight: 440;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #D9D0DE;
+}
+
+.cardActions {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    height: 50px;
+    padding-top: 6px;
+}
+
+.actionButtons {
+    color: #D9D0DE;
+    border-radius: 10px;
+}
+
+.buttonIcon {
+    margin-right: 4px;
+    margin-bottom: 2px;
+    color: #FF0054;
+}
+
+.buttonImg {
+    height: 26px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+}
+
+mat-divider {
+    margin-top: 10px;
+}

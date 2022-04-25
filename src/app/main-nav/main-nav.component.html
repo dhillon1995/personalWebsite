@@ -5,9 +5,9 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="home">Home</a>
-      <a mat-list-item href="hardware">Hardware Repo</a>
-      <a mat-list-item href="software">Software Repo</a>
+      <a mat-list-item routerLink="home">Home</a>
+      <a mat-list-item routerLink="hardware">Hardware Repo</a>
+      <a mat-list-item routerLink="software">Software Repo</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -23,9 +23,9 @@
       <!--<span class="navTitle">Sandip's Portfolio</span><mat-icon class="icon">contact_page</mat-icon>-->
       <img src="../assets/birdLogo2.png" class="logoImg"><span class="navTitle">Sandip's Portfolio</span>
       <div class="spacer"></div>
-      <a mat-button class="mainLinks" href="home">Home</a>
-      <a mat-button class="mainLinks" href="hardware">Hardware Repo</a>
-      <a mat-button class="mainLinks" href="software">Software Repo</a>
+      <a mat-button class="mainLinks" routerLink="home">Home</a>
+      <a mat-button class="mainLinks" routerLink="hardware">Hardware Repo</a>
+      <a mat-button class="mainLinks" routerLink="software">Software Repo</a>
     </mat-toolbar>
     <ng-content>
     </ng-content>

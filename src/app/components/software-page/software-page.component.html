@@ -1,0 +1,191 @@
+<div class="mainContainer">
+    <div class="topContainer">
+        <mat-grid-list cols="2" rowHeight="50px" gutterSize="0px">
+
+            <mat-grid-tile colspan="2" rowspan="1">
+                <hr class="gridLine">
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="projectIconCard" [class.mat-elevation-z6]="true">
+                    <img src="./../../assets/garageBig.png" class="projectIcon">
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="largeCard" [class.mat-elevation-z6]="true">
+
+                    <div class="cardTitleContainer">
+                        <mat-card class="cardTitleBox" [class.mat-elevation-z4]="true">
+                            <img src="./../../assets/touch.png" class="iconImg"><a class="cardTitle">Garage Control Portal</a>
+                        </mat-card>
+                    </div>
+
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <p class="cardText">
+                        This is a simple IOT/automation project I designed to open my garage door using any device able to browse the web, when connected to my Wi-Fi network. This means I don’t have to carry around my garage remote around when at home. It also allows me to open my garage door remotely for safe storage of delivery’s when I’m not at home. This project could easily mature into a more complete garage control system if I implement environment controls such as heating and lighting, or tool monitoring by integrating the control system from my 3-d printer, alongside a live webcam.
+                    </p>
+                    
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <mat-card-actions>
+                        <div class="cardActions">
+                            <button mat-stroked-button class="actionButtons" (click)="garageButton()"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
+                            <button mat-stroked-button class="actionButtons" (click)="gitHub()"><img src="./../../assets/github-64.png" class="buttonImg">View Github</button>
+                        </div>
+                    </mat-card-actions>
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="2" rowspan="1">
+                <hr class="gridLine">
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="projectIconCard" [class.mat-elevation-z6]="true">
+                    <img src="./../../assets/portfolio.png" class="projectIcon">
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="largeCard" [class.mat-elevation-z6]="true">
+
+                    <div class="cardTitleContainer">
+                        <mat-card class="cardTitleBox" [class.mat-elevation-z4]="true">
+                            <img src="./../../assets/resume.png" class="iconImg"><a class="cardTitle">This Portfolio</a>
+                        </mat-card>
+                    </div>
+
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <p class="cardText">
+                        This portfolio website was put together using technology that I’m very familiar with and have used in production environments. It’s primarily built using the Angular Framework created by google, which brings a lot of useful and convenient tools and capabilities along, such as the powerful CLI and component-based architecture. The languages I use are HTML 5, CSS 3, TypeScript & JavaScript (ES6), as well as supporting markups like JSON. This website is a great demonstration of my front-end capabilities, where as I usually focus on more back-end/functional or embedded programming.
+                    </p>
+                    
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <mat-card-actions>
+                        <div class="cardActions">
+                            <button mat-stroked-button class="actionButtons" (click)="portfolioButton()"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
+                            <button mat-stroked-button class="actionButtons" (click)="gitHub()"><img src="./../../assets/github-64.png" class="buttonImg">View Github</button>
+                        </div>
+                    </mat-card-actions>
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="2" rowspan="1">
+                <hr class="gridLine">
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="projectIconCard" [class.mat-elevation-z6]="true">
+                    <img src="./../../assets/vacation.png" class="projectIcon">
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="largeCard" [class.mat-elevation-z6]="true">
+
+                    <div class="cardTitleContainer">
+                        <mat-card class="cardTitleBox" [class.mat-elevation-z4]="true">
+                            <img src="./../../assets/restaurant.png" class="iconImg"><a class="cardTitle">Trip Planner Prototype</a>
+                        </mat-card>
+                    </div>
+
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <p class="cardText">
+                        This was a production prototype for a company I worked for at the time. It was the skeleton for a platform called Cotswold Destinations, a TripAdvisor style website but specifically catering to the Cotswold’s. I used my usual stack for this project and the TS was a little more involved, requiring me to make data requests and handle the data on the front-end. I also used MySQL and JSON in this project.
+                    </p>
+                    
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <mat-card-actions>
+                        <div class="cardActions">
+                            <button mat-stroked-button class="actionButtons" (click)="tripButton()"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
+                            <button mat-stroked-button class="actionButtons" (click)="gitHub()"><img src="./../../assets/github-64.png" class="buttonImg">View Github</button>
+                        </div>
+                    </mat-card-actions>
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="2" rowspan="1">
+                <hr class="gridLine">
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="projectIconCard" [class.mat-elevation-z6]="true">
+                    <img src="./../../assets/monitor.png" class="projectIcon">
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="largeCard" [class.mat-elevation-z6]="true">
+
+                    <div class="cardTitleContainer">
+                        <mat-card class="cardTitleBox" [class.mat-elevation-z4]="true">
+                            <img src="./../../assets/save-energy.png" class="iconImg"><a class="cardTitle">Energy Dashboard UI</a>
+                        </mat-card>
+                    </div>
+
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <p class="cardText">
+                        This was a quick production prototype to display the capabilities of the companies new industrial energy monitoring product. This was a quick prototype that I created at my last place of employment to show what kind of data and live information you can get from an energy monitoring system. This projects front end was fairly straight forwards, but the antiquated back end made it a bit of a challenge to integrate a data feed in. Angular front end with some PHP and MySql on the back end.
+                    </p>
+                    
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <mat-card-actions>
+                        <div class="cardActions">
+                            <button mat-stroked-button class="actionButtons" (click)="energyButton()"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
+                            <button mat-stroked-button class="actionButtons" (click)="gitHub()"><img src="./../../assets/github-64.png" class="buttonImg">View Github</button>
+                        </div>
+                    </mat-card-actions>
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="2" rowspan="1">
+                <hr class="gridLine">
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="projectIconCard" [class.mat-elevation-z6]="true">
+                    <img src="./../../assets/website.png" class="projectIcon">
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="1" rowspan="8">
+                <mat-card class="largeCard" [class.mat-elevation-z6]="true">
+
+                    <div class="cardTitleContainer">
+                        <mat-card class="cardTitleBox" [class.mat-elevation-z4]="true">
+                            <img src="./../../assets/medal.png" class="iconImg"><a class="cardTitle">My First Website</a>
+                        </mat-card>
+                    </div>
+
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <p class="cardText">
+                        This was the first website that I created for a customer. The customer was my mother and at the time she needed a new website for her hair and beauty clinic. This website is very simple, using simple HTML CSS with bootstrap and a small amount of PHP. I also used a premade JS animation package.    
+                    </p>
+                    
+                    <mat-divider class="cardDivider" [inset]="true"></mat-divider>
+
+                    <mat-card-actions>
+                        <div class="cardActions">
+                            <button mat-stroked-button class="actionButtons" (click)="firstButton()"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
+                            <button mat-stroked-button class="actionButtons" (click)="gitHub()"><img src="./../../assets/github-64.png" class="buttonImg">View Github</button>
+                        </div>
+                    </mat-card-actions>
+                </mat-card>
+            </mat-grid-tile>
+
+            <mat-grid-tile colspan="2" rowspan="1">
+                <hr class="gridLine">
+            </mat-grid-tile>
+
+        </mat-grid-list>
+    </div>
+</div>

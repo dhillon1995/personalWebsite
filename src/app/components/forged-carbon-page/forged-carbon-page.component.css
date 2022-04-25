@@ -1,0 +1,67 @@
+.outerContainer {
+    padding-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titleGrid {
+    width: 84%;
+}
+
+.buttonImgL {
+    height: 20px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+}
+
+.navButtons {
+    height: fit-content;
+    width: fit-content;
+}
+
+.titleCard {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242325;
+    border-radius: 0px;
+}
+
+.titleIcon {
+    height: 30px;
+    margin-right: 2px;
+}
+
+.titleText {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.largeCard {
+    margin-top: 12px;
+    width: 1100px;
+    background-color: #242325;
+    border-radius: 0px;
+    margin-bottom: 40px;
+}
+
+.featurePicture {
+    height: 92%;
+    max-width: 90%;
+}
+
+.featureTextCard {
+    height: auto;
+    max-width: 90%;
+    border-radius: 0px;
+    background-color: #242325;
+}

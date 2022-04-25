@@ -4,12 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .gridContainer{
     padding: 10px;
-    width: 86%;
+    width: 1180px;
 }
 
 .displayCard {
@@ -19,14 +18,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 0px;
     border: 1px solid rgba(119, 0, 255, 0.63);;
+    background-color: #242325;
 }
 
 .displayCard:hover {
-    border: 3px solid rgba(119, 0, 255, 0.63);;
+    border: 2px solid #F5B700;
     height: 230px;
     width: 290px;
+    background-color: #323033;
 }
 
 .displayCard:active {
@@ -36,8 +37,8 @@
 }
 
 .featureIcons {
-    height: 90%;
-    padding-bottom: 4px;
+    height: 86%;
+    margin-bottom: 8px;
 }
 
 .featureTitle {

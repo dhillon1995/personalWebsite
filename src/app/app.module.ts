@@ -30,6 +30,13 @@ import { TripPlannerPageComponent } from './components/trip-planner-page/trip-pl
 import { EnergyDashPageComponent } from './components/energy-dash-page/energy-dash-page.component';
 import { FirstWebitePageComponent } from './components/first-webite-page/first-webite-page.component';
 import { ThreeDTestComponent } from './components/three-dtest/three-dtest.component';
+import { MatBadgeModule } from '@angular/material/badge';
+import { DevkitPageComponent } from './components/devkit-page/devkit-page.component';
+import { FoilPageComponent } from './components/foil-page/foil-page.component';
+import { CarbonPageComponent } from './components/carbon-page/carbon-page.component';
+import { ForgedCarbonPageComponent } from './components/forged-carbon-page/forged-carbon-page.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 
 @NgModule({
@@ -50,6 +57,10 @@ import { ThreeDTestComponent } from './components/three-dtest/three-dtest.compon
     EnergyDashPageComponent,
     FirstWebitePageComponent,
     ThreeDTestComponent,
+    DevkitPageComponent,
+    FoilPageComponent,
+    CarbonPageComponent,
+    ForgedCarbonPageComponent,
   ],
   imports: [
     BrowserModule,
@@ -65,9 +76,12 @@ import { ThreeDTestComponent } from './components/three-dtest/three-dtest.compon
     LayoutModule,
     MatSidenavModule,
     MatListModule,
+    MatBadgeModule,
+    NgbModule,
 
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

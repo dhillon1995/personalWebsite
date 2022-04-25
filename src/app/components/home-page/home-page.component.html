@@ -7,7 +7,7 @@
             </mat-grid-tile>
 
             <mat-grid-tile colspan="1" rowspan="8">
-                <img src="./../../assets/e_foil.jpg" class="projectImg" [class.mat-elevation-z6]="true">
+                <img src="./../../assets/foil1.png" class="projectImg" [class.mat-elevation-z6]="true">
             </mat-grid-tile>
 
             <mat-grid-tile colspan="1" rowspan="8">
@@ -29,7 +29,7 @@
 
                     <mat-card-actions>
                         <div class="cardActions">
-                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
+                            <button mat-stroked-button class="actionButtons" (click)="eFoil()"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
                             <button mat-stroked-button class="actionButtons" (click)="hydroModel()"><mat-icon class="buttonIcon">view_in_ar</mat-icon>View 3D Model</button>
                         </div>
                     </mat-card-actions>
@@ -63,8 +63,8 @@
 
                     <mat-card-actions>
                         <div class="cardActions">
-                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
-                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">view_in_ar</mat-icon>View 3D Model</button>
+                            <button mat-stroked-button class="actionButtons" (click)="devKit()"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
+                            <button mat-stroked-button class="actionButtons" (click)="DevkitModel()"><mat-icon class="buttonIcon">view_in_ar</mat-icon>View 3D Model</button>
                         </div>
                     </mat-card-actions>
                 </mat-card>
@@ -75,7 +75,7 @@
             </mat-grid-tile>
 
             <mat-grid-tile colspan="1" rowspan="8">
-                <img src="./../../assets/v3_assembly.png" class="projectImg" [class.mat-elevation-z6]="true">
+                <img src="./../../assets/boat.png" class="projectImg" [class.mat-elevation-z6]="true">
             </mat-grid-tile>
 
             <mat-grid-tile colspan="1" rowspan="8">
@@ -90,19 +90,15 @@
                     <mat-divider class="cardDivider" [inset]="true"></mat-divider>
 
                     <p class="cardText">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                        culpa qui officia deserunt mollit anim id est laborum. <br>
+                        This project’s objective is to test the viability of making Carbon Fiber at home utilizing a wet layup technique, and to test the different ways I can improve surface finish. The reason I decided to conduct this test is to test the whole process of making composite parts for more mechanically demanding projects. I used a simple negative draft mold of a small boat model. The mold was directly 3D printed out of PETG for strength & rigidity while remaining chemically unreactive throughout the process. There’s a lot to cover on this project so click more info to find out more.
                     </p>
                     
                     <mat-divider class="cardDivider" [inset]="true"></mat-divider>
 
                     <mat-card-actions>
                         <div class="cardActions">
-                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
-                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">view_in_ar</mat-icon>View 3D Model</button>
+                            <button mat-stroked-button class="actionButtons" (click)="carbon()"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
+                            <button mat-stroked-button class="actionButtons" (click)="CarbonModel()"><mat-icon class="buttonIcon">view_in_ar</mat-icon>View 3D Model</button>
                         </div>
                     </mat-card-actions>
                 </mat-card>
@@ -113,7 +109,7 @@
             </mat-grid-tile>
 
             <mat-grid-tile colspan="1" rowspan="8">
-                <img src="./../../assets/v3_assembly.png" class="projectImg" [class.mat-elevation-z6]="true">
+                <img src="./../../assets/brakelever2.png" class="projectImg" [class.mat-elevation-z6]="true">
             </mat-grid-tile>
 
             <mat-grid-tile colspan="1" rowspan="8">
@@ -128,19 +124,15 @@
                     <mat-divider class="cardDivider" [inset]="true"></mat-divider>
 
                     <p class="cardText">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                        culpa qui officia deserunt mollit anim id est laborum. <br>
+                        As above this one was more of a test of a manufacturing and design process rather than a complete project in itself. I wanted to test the process of both designing and creating a solid forged carbon piece. The mold making process is more complex for a forged carbon piece over a carbon fiber one due to the fact that the material needs to under compression to consolidate and cure in the correct structure. To address this, I designed a split-compression mold that compresses the material like a piston in a cylinder. Click view more information to read on.
                     </p>
                     
                     <mat-divider class="cardDivider" [inset]="true"></mat-divider>
 
                     <mat-card-actions>
                         <div class="cardActions">
-                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
-                            <button mat-stroked-button class="actionButtons"><mat-icon class="buttonIcon">view_in_ar</mat-icon>View 3D Model</button>
+                            <button mat-stroked-button class="actionButtons" (click)="forgedCarbon()"><mat-icon class="buttonIcon">feed</mat-icon>More Information</button>
+                            <button mat-stroked-button class="actionButtons" (click)="ForgedCarbonModel()"><mat-icon class="buttonIcon">view_in_ar</mat-icon>View 3D Model</button>
                         </div>
                     </mat-card-actions>
                 </mat-card>
@@ -152,40 +144,4 @@
 
         </mat-grid-list>
     </div>
-</div>
-
-<div class="testContainer">
-
-    <mat-grid-list cols="2" rowHeight="240px" gutterSize="4px">
-
-        <mat-grid-tile>
-            <mat-card class="projectCards">
-                <hr class="cardLine">
-                <mat-icon class="cardIcon">code</mat-icon><a class="cardTitle">Software Projects</a>
-                <mat-divider [inset]="true"></mat-divider>
-                <ul>
-                    <li>Garage Control Portal</li>
-                    <li>Cotswold Destinations Prototype</li>
-                    <li>Energy Usage Dashboard</li>
-                    <li>This portfolio website</li>
-                    <li>Crud Application Demo</li>
-                </ul>
-            </mat-card>
-        </mat-grid-tile>
-
-        <mat-grid-tile>
-            <mat-card class="projectCards">
-                <hr class="cardLine">
-                <mat-icon class="cardIcon">engineering</mat-icon><a class="cardTitle">CAD Projects</a>
-                <mat-divider [inset]="true"></mat-divider>
-                <ul>
-                    <li>Development Kit</li>
-                    <li>Carbon-Fibre Test Molds</li>
-                    <li>Garage Door Opener</li>
-                    <li>Electric-Hydrofoil Concept</li>
-                </ul>
-            </mat-card>
-        </mat-grid-tile>
-
-    </mat-grid-list>
 </div>

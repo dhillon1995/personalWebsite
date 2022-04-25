@@ -10,6 +10,11 @@ export class TestPage1Component implements OnInit {
 
   constructor() { }
 
+  gitHub () {
+    window.open("https://github.com/dhillon1995")
+  }
+
+
   ngOnInit(): void {
   }
 

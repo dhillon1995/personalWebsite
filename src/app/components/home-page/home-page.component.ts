@@ -11,8 +11,35 @@ export class HomePageComponent implements OnInit {
   constructor(private router: Router) { }
 
   hydroModel () {
-    console.log("hydroModel Click")
-    this.router.navigateByUrl('/3dTest')
+    window.open("https://www.thingiverse.com/thing:5363194")
+  }
+
+  DevkitModel () {
+    window.open("https://www.thingiverse.com/thing:5363225")
+  }
+
+  CarbonModel () {
+    window.open("https://www.thingiverse.com/thing:5363237")
+  }
+
+  ForgedCarbonModel () {
+    window.open("https://www.thingiverse.com/thing:5363205")
+  }
+
+  devKit () {
+    this.router.navigateByUrl('/Devkit')
+  }
+
+  eFoil () {
+    this.router.navigateByUrl('/eFoil')
+  }
+
+  carbon () {
+    this.router.navigateByUrl('/Carbon')
+  }
+
+  forgedCarbon () {
+    this.router.navigateByUrl('/ForgedCarbon')
   }
 
   ngOnInit(): void {
